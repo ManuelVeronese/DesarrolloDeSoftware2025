@@ -21,8 +21,12 @@ function convertPlanPrice(code: string): PlanConverted[] {
       code: plan.code,
       usd: plan.price,
       usdConversion: Number((plan.price * conversion).toFixed(2)),
+<<<<<<< HEAD
+      description: plan.description
+=======
       description: plan.description,
       //aqui debe devolver la conversion
+>>>>>>> 21718f8ee98ee1516dd8f6d1c5fe44841dd88ca6
     };
   });
 }
